@@ -1,0 +1,8 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name:  sparkjava-svc
+  namespace: sparkjava
+spec:
+  selector:
+    app:  sparkjava
